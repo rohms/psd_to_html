@@ -1,3 +1,223 @@
-h1 {
-    color: blue
-}
+    body {
+        position: absolute;
+        padding: 10px;
+        margin: 0;
+    }
+    
+    .container {
+        width: 100%;
+        height: 100%;
+        min-width: 1000px;
+        min-height: 1000px;
+        font-size: 16px;
+        height: 2em
+    }
+    
+    h1 {
+        color: white;
+        text-align: center;
+    }
+    
+    div nav {
+        padding: 15px 15px;
+        text-decoration: none;
+    }
+    
+    div nav:hover {
+        color: violet;
+    }
+    
+    p {
+        color: white;
+        text-align: center;
+        font-size: 15px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        margin: auto;
+        align-items: center;
+    }
+    
+    logo {
+        align-items: flex-end;
+    }
+    
+    nav a {
+        color: white;
+        align-items: flex-end;
+        padding: 5px;
+        display: inline-flex;
+    }
+    
+    .button1,
+    .button2,
+    .button3,
+    .button4 {
+        color: teal;
+        text-align: center;
+    }
+    
+    .home {
+        color: teal;
+    }
+    
+    .img1 {
+        background-size: cover;
+        background-image: url("/Users/imac/Documents/Sarika/WBS_CodingBootcamp/Project_weekfirst/psd_to_html/Images/bgk-header.png");
+        height: 500px;
+        width: auto;
+    }
+    
+    .para2 p {
+        color: black;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        align-items: center;
+        width: 50%;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .h2 {
+        text-align: right;
+        padding: 10px;
+    }
+    
+    .img2 {
+        display: inline;
+    }
+    
+    .team,
+    .img3 {
+        background-image: url("/Users/imac/Documents/Sarika/WBS_CodingBootcamp/Project_weekfirst/psd_to_html/Images/bgk-middle.png");
+        background-size: cover;
+        height: 500px;
+    }
+    
+    .teamname {
+        background-color: white;
+        display: flex;
+        padding: 10px;
+    }
+    
+    .information {
+        height: 50%;
+        flex-basis: 60px;
+        flex-grow: 3;
+    }
+    
+    .button3 {
+        color: teal;
+        border: 1px solid teal;
+    }
+    
+    .para4 {
+        display: grid;
+        padding: 10px;
+        column-gap: 10px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+    }
+    
+    #screen {
+        padding: 10px;
+    }
+    
+    #pen {
+        padding: 10px;
+    }
+    
+    #mobile {
+        padding: 10px;
+    }
+    
+    #graph {
+        padding: 10px;
+    }
+    
+    #gameboy {
+        padding: 10px;
+    }
+    
+    #heart {
+        padding: 10px;
+    }
+    
+    .teamname {
+        display: inline;
+        align-items: center;
+    }
+    
+    #ceo {
+        padding: 10px;
+        height: 150px;
+        border: 1px solid black;
+        background-color: white;
+        color: black;
+        width: 5%;
+    }
+    
+    #enginnering {
+        padding: 10px;
+        height: 150px;
+        border: 1px solid black;
+        background-color: white;
+        color: black;
+    }
+    
+    #design {
+        padding: 10px;
+        height: 150px;
+        border: 1px solid black;
+        background-color: white;
+        color: black;
+    }
+    
+    #marketing {
+        padding: 10px;
+        height: 150px;
+        border: 1px solid black;
+        background-color: white;
+        color: black;
+    }
+    
+    .grid-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .information {
+        display: flex;
+        width: 20ch;
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    #grid-containerimg {
+        display: flex;
+        width: 20ch;
+        flex-direction: row;
+    }
+    
+    .zara,
+    .barney,
+    .calvin,
+    .converse,
+    .levis,
+    .mango,
+    .gucci,
+    .nike,
+    .puma,
+    .billabong {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        width: 20ch;
+    }
+    
+    footer {
+        background-image: url("/Users/imac/Documents/Sarika/WBS_CodingBootcamp/Project_weekfirst/psd_to_html/Images/bgk-footer.png");
+        background-size: cover;
+        height: 500px;
+    }
